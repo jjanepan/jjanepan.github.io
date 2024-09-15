@@ -1,0 +1,72 @@
+#assignments-page {
+  padding: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#assignments-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#assignments-page p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #555;
+  text-align: center;
+}
+
+.assignment {
+  margin-bottom: 25px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.assignment:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assignment h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #2980b9;
+}
+
+.assignment p {
+  font-size: 1em;
+  color: #333;
+}
+
+.assignment a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.assignment a:hover {
+  color: #1c639b;
+}
+
+/* Add responsive behavior */
+@media (max-width: 768px) {
+  #assignments-page {
+      padding: 15px;
+  }
+
+  .assignment h2 {
+      font-size: 1.5em;
+  }
+
+  .assignment p {
+      font-size: 0.9em;
+  }
+}
